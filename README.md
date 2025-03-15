@@ -44,6 +44,7 @@ print(dataset.tail())
 dataset.info()
 ```
 ##OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/5cfef523-6623-4c66-beb2-435a052632ce)
 
 ##PROGRAM:
@@ -54,6 +55,7 @@ Y=dataset.iloc[:,-1].values
 print(Y)
 ```
 ##OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/dad7c703-4ebe-43b0-991a-8f7f00f3814b)
 
 ##PROGRAM:
@@ -63,6 +65,7 @@ X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=0.2,random_state=0)
 X_train.shape
 ```
 ##OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/9b397afc-487d-451d-b296-46f68508f573)
 
 ##PROGRAM:
@@ -70,6 +73,7 @@ X_train.shape
 X_test.shape
 ```
 ##OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/283a191f-1009-4c81-8377-d7b82819eead)
 
 ##PROGRAM:
@@ -79,6 +83,7 @@ reg=LinearRegression()
 reg.fit(X_train,Y_train)
 ```
 ##OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/da49a5ab-38f0-40c8-9b6f-f51fd5f5273d)
 
 ##PROGRAM:
@@ -89,6 +94,7 @@ print(Y_test)
 ```
 
 ##OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/40c8de35-2b3a-455e-83e7-e2cb0fe38b77)
 
 ##PROGRAM:
@@ -102,6 +108,7 @@ plt.show()
 ```
 
 #OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/967bc443-d7f5-4e5f-aab7-2e9778f15005)
 
 ##PROGRAM:
@@ -115,6 +122,7 @@ plt.show()
 ```
 
 ##OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/846fc938-7b12-44cd-93b4-d9648375465f)
 
 
